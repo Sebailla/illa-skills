@@ -1,0 +1,9 @@
+{
+  "name": "pi-extensions",
+  "private": true,
+  "dependencies": {
+    "@juanibiapina/pi-tokyonight": "^1.0.1",
+    "pi-claude-style-tools": "^1.0.25",
+    "pi-interactive-shell": "^0.13.0"
+  }
+}
