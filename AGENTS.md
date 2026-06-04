@@ -1061,16 +1061,6 @@ main (production) ←── PRs only from develop
         └── develop (integration) ←── PRs from feat/*, fix/*, docs/*, etc.
 ```
 
-### Commits
-
-```bash
-git commit -m "<type>(<scope>): <description>"
-
-# Types: feat, fix, docs, style, refactor, test, chore, perf, build, ci, revert
-# Scope: affected module or area
-# Description: imperative, present tense, max 72 characters
-```
-
 ### Rules
 
 1. **main is untouchable**: never work directly on main
@@ -1078,7 +1068,10 @@ git commit -m "<type>(<scope>): <description>"
 3. **Short-lived branches**: create, work, merge
 4. **Conventional Commits**: all commits in conventional format
 5. **No AI Attribution**: no "Co-authored-by" or AI trailers in commits
-6. **Husky**: local validations (commit-msg, pre-push, pre-commit)
+
+Para detalle de políticas específicas, consultar las skills dedicadas: `commit-conventions`, `branch-naming`, `pr-template`, `release-flow`, `git-tooling-integration` (opt-in). Índice router en `estrategia-git`.
+
+*v3.0 — alineado con la división de `estrategia-git` en cinco skills dedicadas.*
 
 ---
 
