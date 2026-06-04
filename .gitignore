@@ -1,5 +1,6 @@
 # Local Pi runtime state
 .atl/
+!.atl/skill-registry.md
 .opencode/node_modules/
 .opencode/.cache/
 .opencode/.serverless/

@@ -1,0 +1,37 @@
+labels:
+  - name: bug
+    color: d73a4a
+    description: Algo no está funcionando — error o comportamiento incorrecto.
+  - name: enhancement
+    color: a2eeef
+    description: Nueva feature o mejora significativa.
+  - name: documentation
+    color: 0075ca
+    description: Cambios solo en documentación (README, guides, specs).
+  - name: refactor
+    color: fbca04
+    description: Cambio de código que no altera comportamiento externo.
+  - name: chore
+    color: cfd3d7
+    description: Mantenimiento, deps, configs, tooling.
+  - name: performance
+    color: 5319e7
+    description: Mejora de performance sin cambio funcional.
+  - name: test
+    color: 0e8a16
+    description: Adición o corrección de tests.
+  - name: build
+    color: 1d76db
+    description: Cambios en build system, Docker, packaging.
+  - name: ci
+    color: 006b75
+    description: Cambios en GitHub Actions, hooks, validación automática.
+  - name: breaking-change
+    color: b60205
+    description: Cambio incompatible hacia atrás (feat!, fix! o API change).
+  - name: dependencies
+    color: 0366d6
+    description: Actualización de dependencias (Dependabot, renovate).
+  - name: sdd-change
+    color: 7057ff
+    description: Cambio manejado por el flujo SDD (spec/proposal/design/tasks).
