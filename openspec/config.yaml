@@ -7,7 +7,7 @@ context: |
   Git workflow (per estrategia-git/SKILL.md v3.0): main ← develop ← feat/* | fix/* | docs/*; conventional commits, no AI attribution.
   Test-like artifacts: 8 markdown files in ui-ux-developer/TESTS/ are EXAMPLE test code for skill consumers (NOT runnable in this repo).
   No real test runner, linter, type checker, formatter, or CI is installed at the repo root.
-  Project-local skills: estrategia-git (v3.0, router index ~46 lines, points to 5 dedicated specs in openspec/specs/), ui-ux-developer (v1.6.3), el-gentleman (user-profile).
+  Project-local skills: estrategia-git (v3.0, router index ~46 lines) + 5 dedicated SKILL.md at repo root (commit-conventions, branch-naming, pr-template, release-flow, git-tooling-integration), ui-ux-developer (v1.6.3), el-gentleman (user-profile).
 rules:
   proposal:
     require_problem_statement: true
