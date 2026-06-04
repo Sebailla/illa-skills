@@ -47,24 +47,6 @@ main (producción) ←── PRs solo desde develop
 
 ---
 
-## Resumen de la Estrategia
-
-```
-main (producción) ←── PRs solo desde develop
-        ↑
-        └── develop (integración) ←── PRs desde feature/*, fix/*, docs/*, etc.
-```
-
-### Reglas Fundamentales
-
-1. **main es intocable**: Nunca trabajar directamente en main. Solo recibe merges desde develop.
-2. **develop es la base**: Todas las ramas de tarea salen de develop.
-3. **Ramas cortas**: Crear, trabajar y mergear. No mantener ramas vivas por mucho tiempo.
-4. **Conventional Commits**: Todos los commits en formato convencional.
-5. **No AI Attribution**: No agregar "Co-authored-by" ni trailers de IA.
-
----
-
 ## Workflow Completo
 
 ### 1. Sincronizar develop
@@ -220,7 +202,7 @@ Una vez aprobado:
 
 ## Release Flow (develop → main)
 
-###触发条件
+### Condiciones
 
 Solo merge a main cuando:
 - Feature completo o milestone alcanzado
