@@ -1,2 +1,13 @@
 # Local Pi runtime state
 .atl/
+!.atl/skill-registry.md
+.opencode/node_modules/
+.opencode/.cache/
+.opencode/.serverless/
+.opencode/.webpack/
+.opencode/.vscode/
+.opencode/.env
+.opencode/.env.local
+.opencode/.env.development
+.opencode/.env.production
+.opencode/.env.test
