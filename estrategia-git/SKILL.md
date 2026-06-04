@@ -42,5 +42,5 @@ main (producción) ←── develop (integración) ←── feat/*, fix/*, doc
 - Branching actual: `main` y `develop` (develop es la base obligatoria; main solo producción).
 - Husky, GGA, git-c, GitHub Actions **NO** se usan en este repo — `git-tooling-integration` los cubre como plantilla opt-in.
 - `CHANGELOG.md` presente desde PR1 del change `estrategia-git-media-cleanup`. Convención Keep a Changelog + SemVer.
-- Las 5 skills divididas viven en `openspec/specs/` (no en la raíz de `skills/`).
+- Las 5 skills divididas viven en la raíz del repo como `<name>/SKILL.md` (no en `openspec/specs/`).
 - Conventional Commits validados manualmente (no hay hook configurado en este repo).
