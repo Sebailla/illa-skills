@@ -3,12 +3,11 @@ context: |
   illa-skills is a SKILLS & DOCUMENTATION repository (no application code).
   Detected project marker: package.template-pi.json (pi-extensions template) and mcp.json (context7 + engram).
   Stack: Markdown-first, Pi/opencode runtime, MCP servers (context7, engram), GitHub remote Sebailla/illa-skills.
-  Architecture: LLM-first skills + el-Gentleman persona profile (AGENTS.md, 1293 lines, bilingual ES/EN).
-  Git workflow (per estrategia-git/SKILL.md v2.0): main <- develop <- feat/* | fix/* | docs/*; conventional commits, husky, GGA.
+  Architecture: LLM-first skills + el-Gentleman persona profile (AGENTS.md, bilingual ES/EN).
+  Git workflow (per estrategia-git/SKILL.md v3.0): main ← develop ← feat/* | fix/* | docs/*; conventional commits, no AI attribution.
   Test-like artifacts: 8 markdown files in ui-ux-developer/TESTS/ are EXAMPLE test code for skill consumers (NOT runnable in this repo).
   No real test runner, linter, type checker, formatter, or CI is installed at the repo root.
-  Project-local skills: estrategia-git (v2.0, 631 lines), ui-ux-developer (v1.6.3), el-gentleman (user-profile).
-  Active branch: docs/estrategia-git-cleanup (1 uncommitted .gitignore edit; 3 housekeeping commits ahead of main).
+  Project-local skills: estrategia-git (v3.0, router index ~46 lines, points to 5 dedicated specs in openspec/specs/), ui-ux-developer (v1.6.3), el-gentleman (user-profile).
 rules:
   proposal:
     require_problem_statement: true
