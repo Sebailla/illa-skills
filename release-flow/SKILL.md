@@ -51,7 +51,3 @@ Mantener `CHANGELOG.md` en la raíz con entradas agrupadas por versión y tipo (
 4. Checklist: tests, docs, changelog, tags.
 
 PR targetea `main` y se basa en `develop`.
-
-## Referencia
-
-Spec canónica: `openspec/specs/release-flow/spec.md`

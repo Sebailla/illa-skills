@@ -48,7 +48,3 @@ Sin prefijo solo para: `main`, `master`, `develop`, `release/*`, `sdd/<change-id
 ```
 
 `main`, `master` y `develop` NO se pushean directamente — solo vía PR.
-
-## Referencia
-
-Spec canónica: `openspec/specs/branch-naming/spec.md`

@@ -80,7 +80,3 @@ git c "fix: bug de logout"
 ## Restricción de aplicación
 
 Esta skill NO se carga automáticamente. Requiere mención explícita o detección de proyecto de aplicación real. La descripción en el frontmatter contiene "opt-in" para evitar triggers accidentales.
-
-## Referencia
-
-Spec canónica: `openspec/specs/git-tooling-integration/spec.md`

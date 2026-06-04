@@ -35,7 +35,3 @@ Marcar con `!` antes de los dos puntos: `feat(api)!: change token format`. NO co
 ## Atomicidad
 
 Un commit por cambio lógico. Dividir fixes y refactors en commits separados.
-
-## Referencia
-
-Spec canónica: `openspec/specs/commit-conventions/spec.md`

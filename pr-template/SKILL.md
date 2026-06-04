@@ -59,7 +59,3 @@ Exigir referencia a issue/ticket/TC en el cuerpo antes de recomendar la apertura
 3. **Rebase merge** para 1-2 commits limpios con historia lineal.
 
 Tras el merge: borrar la rama (remoto y local).
-
-## Referencia
-
-Spec canónica: `openspec/specs/pr-template/spec.md`
