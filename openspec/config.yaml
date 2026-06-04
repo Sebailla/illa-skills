@@ -1,12 +1,14 @@
 strict_tdd: false
 context: |
-  illa-skills is a Node.js/TypeScript project.
-  Detected markers: none.
-  Additional evidence: Test-like files detected (8); examples: ui-ux-developer/TESTS/.DS_Store, ui-ux-developer/TESTS/components/avatar.test.md, ui-ux-developer/TESTS/components/badge.test.md, ui-ux-developer/TESTS/components/button.test.md, ui-ux-developer/TESTS/components/toast.test.md.
-  No reliable test runner was detected; verify testing manually before enabling strict TDD.
-  Unit tests: none.
-  Integration tests: none.
-  E2E tests: none.
+  illa-skills is a SKILLS & DOCUMENTATION repository (no application code).
+  Detected project marker: package.template-pi.json (pi-extensions template) and mcp.json (context7 + engram).
+  Stack: Markdown-first, Pi/opencode runtime, MCP servers (context7, engram), GitHub remote Sebailla/illa-skills.
+  Architecture: LLM-first skills + el-Gentleman persona profile (AGENTS.md, 1293 lines, bilingual ES/EN).
+  Git workflow (per estrategia-git/SKILL.md v2.0): main <- develop <- feat/* | fix/* | docs/*; conventional commits, husky, GGA.
+  Test-like artifacts: 8 markdown files in ui-ux-developer/TESTS/ are EXAMPLE test code for skill consumers (NOT runnable in this repo).
+  No real test runner, linter, type checker, formatter, or CI is installed at the repo root.
+  Project-local skills: estrategia-git (v2.0, 631 lines), ui-ux-developer (v1.6.3), el-gentleman (user-profile).
+  Active branch: docs/estrategia-git-cleanup (1 uncommitted .gitignore edit; 3 housekeeping commits ahead of main).
 rules:
   proposal:
     require_problem_statement: true
